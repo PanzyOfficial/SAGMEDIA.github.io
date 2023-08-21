@@ -70,7 +70,7 @@ section {
 }
 
 .heading {
-  text-align: center;
+  text-align: left;
   margin-bottom: 2.5rem;
   font-size: 4rem;
   color: #f6b93b;
@@ -380,7 +380,7 @@ section {
 
 .categories .box-container {
   display: -ms-grid;
-  display:inline;
+  display:grid;
   -ms-grid-columns: (minmax(29rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
   gap: 1.5rem;
