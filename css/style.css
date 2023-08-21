@@ -388,7 +388,7 @@ section {
 
 .categories .box-container .box {
   text-align: left;
-  padding: 1rem;
+/*   padding: 1rem; */
 }
 
 .categories .box-container .box img {
