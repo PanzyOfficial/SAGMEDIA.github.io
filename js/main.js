@@ -11,7 +11,7 @@ document.querySelector('#nav-close').onclick = () =>{
 
 let dropdownContent = document.querySelector('.dropdown-content');
 dropdownContent.style.color = 'black';
-dropdownContent.style.marginLeft = '2rem';
+dropdownContent.style.marginLeft = '50rem';
 
 
 
