@@ -641,6 +641,22 @@
     window.addEventListener("scroll", handleScroll);
   });
 </script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+  // Get the menu button element
+  var menuButton = document.getElementById("menu-btn");
+
+  // Get the navbar element
+  var navbar = document.querySelector(".navbar");
+
+  // Add event listener to the menu button
+  menuButton.addEventListener("click", function () {
+    // Toggle the "active" class on the navbar
+    navbar.classList.toggle("active");
+  });
+});
+
+</script>
 
 <!-- when scrolling header changes color end-->
 </body>
