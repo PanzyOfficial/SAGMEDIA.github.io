@@ -935,6 +935,12 @@ section {
   .home .box .content h3 {
     font-size: 4rem;
   }
+  .categories .box-container .box {
+  text-align: left;
+  padding: 1rem;
+  margin-top:-8rem;
+  margin-left:20rem;
+}
 }
 
 @media (max-width: 768px) {
