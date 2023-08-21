@@ -135,11 +135,11 @@ section {
 .header .navbar a {
   margin-left: 2rem;
   font-size: 2.0rem;
-  color:#ffffff;
+  color:#f6b93b;
 }
 
 .header .navbar a:hover {
-  color:#f6b93b;
+  color:#ffffff;
 }
 
 .header .navbar #nav-close {
