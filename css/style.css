@@ -906,6 +906,9 @@ section {
 }
 
 @media (max-width: 991px) {
+   .dropdown-content a {
+                margin: 5px;
+            }
   html {
     font-size: 55%;
     scroll-padding-top: 7rem;
