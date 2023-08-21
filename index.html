@@ -611,22 +611,24 @@
 <!-- custom js file link  -->
 <script src="js/main.js"></script>
 
+<!--  when clicking on fas fa-bars the font color changes color start -->
 <script>
-     <!-- when clicking on fas fa-bars the font color changes color start-->   
-      <!--Get the elements by their class names -->
+    
+      // Get the elements by their class names
     let menuBtn = document.querySelector('#menu-btn');
     let dropdownContent = document.querySelector('.dropdown-content');
-   <!-- Add a click event listener to the menu button -->
+   // Add a click event listener to the menu button 
        menuBtn.addEventListener('click', function() {
-<!--Toggle the font color of the dropdown content between black and white -->
+// Toggle the font color of the dropdown content between black and white
   if (dropdownContent.style.color === 'black') {
     dropdownContent.style.color = 'white';
   } else {
     dropdownContent.style.color = 'black';
   }
 });
-<!-- when clicking on fas fa-bars the font color changes color end-->     
+   
 </script>
+    <!-- when clicking on fas fa-bars the font color changes color end-->  
 
 <!-- when scrolling header changes color start-->
 <script>
