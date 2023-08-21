@@ -2,12 +2,13 @@ let navbar = document.querySelector('.header .navbar');
 
 document.querySelector('#menu-btn').onclick = () =>{
     navbar.classList.add('active');
-    navbar.style.color = 'black'; // Adding black font color
 }
 
 document.querySelector('#nav-close').onclick = () =>{
     navbar.classList.remove('active');
 }
+let dropdownContent = document.querySelector('.dropdown-content');
+dropdownContent.style.color = 'black';
 
 let searchForm = document.querySelector('.search-form');
 
