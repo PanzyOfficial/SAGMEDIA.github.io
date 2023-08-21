@@ -2,13 +2,18 @@ let navbar = document.querySelector('.header .navbar');
 
 document.querySelector('#menu-btn').onclick = () =>{
     navbar.classList.add('active');
+    
 }
 
 document.querySelector('#nav-close').onclick = () =>{
     navbar.classList.remove('active');
 }
+
 let dropdownContent = document.querySelector('.dropdown-content');
 dropdownContent.style.color = 'black';
+dropdownContent.style.whiteSpace = 'pre-line';
+
+
 
 let searchForm = document.querySelector('.search-form');
 
