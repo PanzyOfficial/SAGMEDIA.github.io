@@ -2,7 +2,7 @@ let navbar = document.querySelector('.header .navbar');
 
 document.querySelector('#menu-btn').onclick = () =>{
     navbar.classList.add('active');
-     dropdownContent.style.color = 'black';
+    navbar.style.color = 'black'; // Adding black font color
 }
 
 document.querySelector('#nav-close').onclick = () =>{
