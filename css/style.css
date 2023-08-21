@@ -907,7 +907,7 @@ section {
 
 @media (max-width: 991px) {
    .dropdown-content a {
-                margin: 5px;
+                margin-left: 5px;
             }
   html {
     font-size: 55%;
@@ -939,7 +939,7 @@ section {
 
 @media (max-width: 768px) {
    .dropdown-content a {
-                margin: 5px;
+                margin-left: 5px;
             }
   .header #menu-btn {
     display: inline-block;
@@ -989,7 +989,7 @@ section {
 
 @media (max-width: 450px) {
    .dropdown-content a {
-                margin: 5px;
+                margin-left: 5px;
             }
   html {
     font-size: 50%;
