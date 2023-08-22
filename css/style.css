@@ -1012,7 +1012,6 @@ section {
     font-size: 3rem;
   }
 }
-/* Add a media query for mobile screens */
 @media (max-width: 768px) {
   /* Display the dropdown content as block */
   .dropdown-content {
@@ -1023,8 +1022,18 @@ section {
     left: 0;
     width: 100%;
     z-index: 1;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #ffffff;
   }
+
+    /* Style the dropdown links */
+    .dropdown-content a {
+      display: block;
+      padding: 10px 20px;
+      color: #000 !important; /* Set font color to black */
+      text-decoration: none;
+      transition: background-color 0.3s ease-in-out;
+    }
 }
+
 
 /*# sourceMappingURL=style.css.map */
