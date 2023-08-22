@@ -1016,7 +1016,7 @@ section {
   /* Display the dropdown content as block */
   .dropdown-content {
     display: block !important; /* Override default display value */
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     position: absolute;
     top: 60px;
     left: 0;
