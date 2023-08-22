@@ -1013,5 +1013,38 @@ section {
   }
 }
 
+/* Add a media query for mobile screens */
+@media (max-width: 768px) {
+  /* Style the dropdown links as a vertical list */
+  .dropdown-content {
+    display: none; /* Hide the dropdown by default */
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    border-top: 1px solid #ccc;
+  }
+
+  /* Style the dropdown links */
+  .dropdown-content a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  /* Hover effect for dropdown links */
+  .dropdown-content a:hover {
+    background-color: #e0e0e0;
+  }
+
+  /* Display the dropdown content when the dropdown is open */
+  .dropdown.active .dropdown-content {
+    display: block;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
