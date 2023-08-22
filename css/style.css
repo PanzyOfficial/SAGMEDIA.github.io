@@ -1038,6 +1038,11 @@ section {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
+  .categories .box {
+    width: 48%; /* Adjust as needed */
+    margin-bottom: 20px;
+  }
 }
 
 
