@@ -1012,6 +1012,19 @@ section {
     font-size: 3rem;
   }
 }
-
+/* Add a media query for mobile screens */
+@media (max-width: 768px) {
+  /* Display the dropdown content as block */
+  .dropdown-content {
+    display: block !important; /* Override default display value */
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    border-top: 1px solid #ccc;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
