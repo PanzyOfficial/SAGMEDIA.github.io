@@ -6,11 +6,21 @@
 <style>
   body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
+  }
+
+  .back-arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
   }
 
   .text-container {
@@ -29,9 +39,10 @@
     text-transform: uppercase;
   }
 </style>
-<title>SAGMEDIA</title>
+<title>3D Text Example</title>
 </head>
 <body>
+<a href="index.html" class="back-arrow">&#8592;</a>
 <div class="text-container">
   <div class="text-3d">This page is under Development</div>
 </div>
