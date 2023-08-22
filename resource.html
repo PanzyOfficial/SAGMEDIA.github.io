@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+
+  .text-container {
+    position: relative;
+    perspective: 1000px;
+  }
+
+  .text-3d {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateX(30deg);
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+  }
+</style>
+<title>3D Text Example</title>
+</head>
+<body>
+<div class="text-container">
+  <div class="text-3d">This page is under Development</div>
+</div>
+</body>
+</html>
