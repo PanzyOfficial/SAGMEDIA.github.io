@@ -1013,43 +1013,5 @@ section {
   }
 }
 
-/* Add a media query for mobile screens */
-@media (max-width: 768px) {
-  /* Style the dropdown links as a vertical list */
-  .dropdown-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center-align the links */
-    background-color: #1e272e; /* Add background color for better visibility */
-    width: 100%; /* Take full width of the screen */
-    position: absolute;
-    top: 60px; /* Adjust the top position as needed */
-    left: 0;
-    transform: translateX(-100%);
-    transition: transform 0.3s ease-in-out;
-    z-index: 1;
-    border-top: 1px solid #1e272e;
-  }
 
-  /* Restyle the dropdown links */
-  .dropdown-content a {
-    padding: 10px 20px;
-    display: block;
-    width: 100%; /* Take full width */
-    text-align: center; /* Center-align the links */
-    color: #333;
-    text-decoration: none;
-    transition: background-color 0.3s ease-in-out;
-  }
-
-  /* Hover effect for dropdown links */
-  .dropdown-content a:hover {
-    background-color: #1e272e;
-  }
-
-  /* Display the dropdown content when the dropdown is open */
-  .dropdown.active .dropdown-content {
-    transform: translateX(0);
-  }
-}
 /*# sourceMappingURL=style.css.map */
